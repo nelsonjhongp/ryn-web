@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi San Valentín?</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../img/love-icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="carouselBackground" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/imagen1.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/imagen2.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/imagen3.jpg" class="d-block w-100" alt="Imagen 3">
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay position-absolute w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="title" id="question">¿Quieres ser mi San Valentín?</h1>
+        <img id="reaction-gif" src="../img/waiting.gif" class="gif img-fluid mb-3" alt="Reacción">
+        <div class="buttons" id="buttons">
+            <button class="btn btn-success btn-lg me-5" onclick="acceptProposal()">Sí</button>
+            <button class="btn btn-danger no-btn btn-lg" id="no-btn" onclick="handleNoClick()">No</button>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
