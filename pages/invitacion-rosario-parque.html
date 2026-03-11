@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitacion para Rosario</title>
+  <link rel="icon" type="image/x-icon" href="../img/love-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/invitacion-rosario-parque.css">
+</head>
+<body>
+  <div class="scene" id="scene">
+    <div class="glow one"></div>
+    <div class="glow two"></div>
+
+    <article class="card" id="card">
+      <div class="stars" id="stars"></div>
+
+      <header class="top">
+        <div class="tag">Invitacion especial para Rosario</div>
+        <div class="top-actions">
+          <a class="back-link" href="../index.html">Volver</a>
+          <button class="music-fab" id="musicBtn" type="button" aria-pressed="false" aria-label="Activar musica">
+            <span class="icon-on" aria-hidden="true">
+              <svg viewBox="0 0 16 16" focusable="false"><path d="M7.2 2.3a.75.75 0 0 1 1.2.6v10.2a.75.75 0 0 1-1.2.6L4.6 11.8H2.4A1.4 1.4 0 0 1 1 10.4V5.6a1.4 1.4 0 0 1 1.4-1.4h2.2l2.6-1.9ZM11.35 5.1a.75.75 0 0 1 1.06 0 4.2 4.2 0 0 1 0 5.8.75.75 0 0 1-1.06-1.06 2.7 2.7 0 0 0 0-3.68.75.75 0 0 1 0-1.06Zm1.98-1.93a.75.75 0 0 1 1.06 0 6.95 6.95 0 0 1 0 9.66.75.75 0 1 1-1.06-1.06 5.45 5.45 0 0 0 0-7.54.75.75 0 0 1 0-1.06Z" fill="currentColor"/></svg>
+            </span>
+            <span class="icon-off" aria-hidden="true">
+              <svg viewBox="0 0 16 16" focusable="false"><path d="M7.2 2.3a.75.75 0 0 1 1.2.6v10.2a.75.75 0 0 1-1.2.6L4.6 11.8H2.4A1.4 1.4 0 0 1 1 10.4V5.6a1.4 1.4 0 0 1 1.4-1.4h2.2l2.6-1.9Z" fill="currentColor"/><path d="M12.78 4.28a.75.75 0 0 1 0 1.06L10.12 8l2.66 2.66a.75.75 0 1 1-1.06 1.06L9.06 9.06 6.4 11.72a.75.75 0 1 1-1.06-1.06L8 8 5.34 5.34A.75.75 0 0 1 6.4 4.28l2.66 2.66 2.66-2.66a.75.75 0 0 1 1.06 0Z" fill="currentColor"/></svg>
+            </span>
+          </button>
+        </div>
+      </header>
+
+      <div class="content">
+        <section class="text-zone">
+          <div class="tag tag-soft">Un pequeno plan bonito</div>
+          <h1 class="title">
+            Rosario,
+            <span class="name">quieres salir conmigo al parque?</span>
+          </h1>
+          <p class="subtitle">
+            Quisiera compartir contigo una tarde tranquila, caminar, conversar y reirnos un rato, de esos momentos simples que se vuelven bonitos por estar contigo.
+          </p>
+          <p class="question">Prometo una tarde suave, una compania sincera y un ratito bonito contigo.</p>
+
+          <div class="buttons">
+            <button class="yes" id="yesBtn">Si, vamos</button>
+            <button class="surprise" id="surpriseBtn">Ver sorpresa</button>
+          </div>
+
+          <p class="message" id="message"></p>
+        </section>
+
+        <section class="visual-zone">
+          <div class="moon"></div>
+          <div class="park">
+            <div class="tree left">
+              <div class="trunk"></div>
+              <div class="leaves one"></div>
+              <div class="leaves two"></div>
+              <div class="leaves three"></div>
+            </div>
+
+            <div class="tree right">
+              <div class="trunk"></div>
+              <div class="leaves one"></div>
+              <div class="leaves two"></div>
+              <div class="leaves three"></div>
+            </div>
+
+            <div class="bench"></div>
+            <div class="hill"></div>
+
+            <div class="cat" id="cat">
+              <div class="cat-shadow"></div>
+              <div class="cat-head">
+                <div class="ear ear-left"><span class="ear-inner"></span></div>
+                <div class="ear ear-right"><span class="ear-inner"></span></div>
+                <div class="eye left"></div>
+                <div class="eye right"></div>
+                <div class="nose"></div>
+                <div class="mouth-w">
+                  <span class="mouth-curve left"></span>
+                  <span class="mouth-curve right"></span>
+                </div>
+              </div>
+              <div class="cat-body">
+                <div class="chest"></div>
+                <div class="paw paw-left"></div>
+                <div class="paw paw-right"></div>
+              </div>
+              <div class="tail"></div>
+              <div class="cat-bubble" id="catBubble" aria-hidden="true">miau miau, te amooo muchoo, miau</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </article>
+  </div>
+
+  <script src="../js/invitacion-rosario-parque.js"></script>
+</body>
+</html>
